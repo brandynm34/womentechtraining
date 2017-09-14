@@ -28,10 +28,10 @@ p.long {
   background-color: #C71585;
 }
 h2 {
-  padding-top: 55px;
+  padding-top: 150px;
   padding-bottom: 15px;
 }
 img {
-  position: relative;
+  position: float;
   right; 50px;
 }
