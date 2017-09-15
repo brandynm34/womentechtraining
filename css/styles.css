@@ -1,0 +1,39 @@
+.btn-primary {
+  background-color: #286090;
+  border-color: #286090;
+}
+.btn-primary:hover {
+
+    background-color: purple;
+    border-color: purple;
+}
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 1;
+}
+.jumbotron {
+  background: url('/Users/Brandy/projects/womentechtraining/img/40173655.jpg') center;
+  color: white;
+}
+p.long {
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+.col-md-12 {
+  height: 50px;
+}
+.midnightblue {
+  background-color: midnightblue;
+}
+.C71585 {
+  background-color: #C71585;
+}
+p.small{
+  font-size: 100%
+}
+h2 {
+  padding-bottom: 15px;
+}
+img {
+  position: float;
+  right; 50px;
+}
