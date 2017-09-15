@@ -18,7 +18,7 @@ p.long {
   padding-top: 15px;
   padding-bottom: 40px;
 }
-.col-md-4 {
+.col-md-12 {
   height: 50px;
 }
 .midnightblue {
@@ -27,8 +27,10 @@ p.long {
 .C71585 {
   background-color: #C71585;
 }
+p.small{
+  font-size: 100%
+}
 h2 {
-  padding-top: 150px;
   padding-bottom: 15px;
 }
 img {
