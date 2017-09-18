@@ -1,39 +1,71 @@
-.btn-primary {
-  background-color: #286090;
-  border-color: #286090;
+/*fonts for website*/
+h1,h2 {
+  font-family: 'Averia Libre', cursive;
 }
+p,a{
+  font-family: 'Open Sans', sans-serif;
+}
+/*navigation colors*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #FFF;
+    background-color: skyblue;
+}
+/*color of learn more button on jumbotron*/
+.btn-primary {
+  background-color: khaki;
+  border-color: khaki;
+}
+/*changing color of the learn more button when curser is on it*/
 .btn-primary:hover {
-
     background-color: purple;
     border-color: purple;
 }
 .btn-group-lg>.btn, .btn-lg {
   border-radius: 1;
 }
+/*jumbotron picture*/
 .jumbotron {
-  background: url('/Users/Brandy/projects/womentechtraining/img/40173655.jpg') center;
+  background: url('../img/pexels-photo-551993.jpg')  ;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
+/*the longest text*/
 p.long {
   padding-top: 15px;
   padding-bottom: 40px;
 }
+/*columns and color*/
 .col-md-12 {
   height: 50px;
 }
-.midnightblue {
-  background-color: midnightblue;
+.col-lg-12 {
+  height: 20px;
 }
-.C71585 {
-  background-color: #C71585;
+.skyblue {
+  background-color: skyblue;
 }
+.silver {
+  background-color: silver;
+}
+/*text cunder decorative column*/
 p.small{
-  font-size: 100%
+  font-size: 100%;
+  padding-top: 15px;
 }
-h2 {
-  padding-bottom: 15px;
+/*jumbotron for about page*/
+.jumbotron-special {
+  background: url('../img/pexels-photo-3.jpg') center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: Khaki;
 }
-img {
-  position: float;
-  right; 50px;
+/*footer*/
+footer{
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
